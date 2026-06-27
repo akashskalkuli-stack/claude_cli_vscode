@@ -1,0 +1,78 @@
+I will provide you with my project module step by step.
+
+Since you cannot access my local folder directly, I will share:
+1. Folder structure
+2. Important files (code snippets)
+3. Key components
+
+Your task is to:
+- Understand the module completely
+- Summarize functionality
+- Identify workflow and logic
+- Later help me generate project documentation and PPT content
+
+Acknowledge and wait for my input.
+
+modeltour/
+ ├── hm/scripts/modeltour
+ ├── unity/plugins/hwd/scripts/python/modeltour
+ ├── 
+ ├── 
+ 
+ 
+Important Instructions:
+- Do NOT generate final output until I say
+
+I will provide you with my project module step by step.
+
+Since you cannot access my local folder directly, I will share:
+1. Folder structure
+2. Important files (code snippets)
+3. Key components
+
+Your task is to:
+- Understand the module completely
+- Summarize functionality
+- Identify workflow and logic
+- Later help me generate project documentation and PPT content
+
+Acknowledge and wait for my input.
+
+modeltour/
+ ├── hm/scripts/modeltour
+ ├── unity/plugins/hwd/scripts/python/modeltour
+ ├── 
+ ├── 
+ 
+ 
+Important Instructions:
+- Do NOT generate final output until I say "GENERATE DOCUMENTATION"
+- Ask for missing critical pieces if needed
+- Keep understanding updated as I send more modules
+
+
+Once I say "GENERATE DOCUMENTATION", you must:
+
+1. Create structured project documentation
+2. Format it for PowerPoint slides
+3. Keep content concise and presentation-friendly
+4. Include:
+   - Problem Statement
+   - Objectives
+   - Architecture
+   - Modules Explanation
+   - Workflow
+   - Features
+   - Tech Stack
+   - Results
+   - Challenges
+   - Future Scope
+
+Output format:
+- Slide-by-slide
+- 4–6 bullet points per slide
+- Suggest visuals/diagrams
+
+ "GENERATE DOCUMENTATION"
+- Ask for missing critical pieces if needed
+- Keep understanding updated as I send more modules
