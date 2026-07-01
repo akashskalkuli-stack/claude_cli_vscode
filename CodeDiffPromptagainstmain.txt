@@ -1,0 +1,106 @@
+You are a senior C++ code reviewer and software architect.
+
+Task:
+Analyze changes made in my Git branch origin/hmcore_mvshm-289866 compared to `origin/main`, focusing ONLY on the following directories:
+- hm/
+- hwcommon/
+
+Goal:
+1. Identify and categorize all changes.
+2. Generate a structured review document summarizing the impact and patterns of changes.
+
+Context:
+The majority of changes follow a consistent pattern:
+- Removal of an existing header file
+- Replacement with a new/updated header file
+- Addition of required namespaces
+- Replacement of equivalent functions with new implementations
+- Most changes are similar to what was done in:
+C:\dev\Repo\hmcore_mvshm-289866\mdi\hwcommon\distribution\DTInterfaceBuffer.h
+
+Instructions:
+
+Step 1: Git Diff Analysis
+- Compare current branch with `origin/main`
+- Limit scope to:
+- hm/**
+- hwcommon/**
+- Identify:
+- Modified files
+- Added/removed headers
+- Function-level changes (renames/replacements)
+- Namespace changes
+
+Step 2: Categorization
+Group all changes into categories such as:
+- Header Replacement
+- Namespace Updates
+- Function Replacement / Refactoring
+- Dependency Adjustments (includes, forward declarations)
+- Behavioral vs Non-functional changes
+
+Step 3: Pattern Recognition
+- Detect repeated transformation patterns across files
+- Highlight if changes are systematic (bulk refactor) vs isolated
+
+Step 4: Deep Reference Comparison
+- Use DTInterfaceBuffer.h as a reference pattern
+- Compare other changed files against this structure:
+- What was removed?
+- What was introduced?
+- Are replacements consistent?
+
+Step 5: Risk & Impact Analysis
+For each category:
+- API compatibility impact
+- Binary compatibility concerns
+- Potential runtime risks
+- Build/dependency risks
+
+Step 6: Generate Review Document
+
+Output Format:
+
+# Code Review Summary
+
+## 1. Overview
+- High-level summary of the change set
+- Scope (number of files, dirs affected)
+
+## 2. Change Categories
+### 2.1 Header Replacement
+- Description
+- Files affected
+
+### 2.2 Namespace Updates
+...
+
+### 2.3 Function Replacement
+...
+
+## 3. Common Change Pattern
+- Describe repeated transformation logic
+- Link with DTInterfaceBuffer.h example
+
+## 4. File-wise Highlights
+- Key files with major impact
+- Brief summary per file
+
+## 5. Risk Analysis
+- Compile-time
+- Runtime
+- Integration impact
+
+## 6. Recommendations
+- What reviewers should focus on
+- Testing suggestions
+- Any missing validations
+
+Important Notes:
+- Assume changes are intentional refactorings
+- Focus on consistency, risks, and correctness rather than style
+- Avoid unnecessary verbosity—focus on meaningful insights
+- Highlight anything inconsistent with the main transformation pattern
+
+If possible, include example snippets of "before vs after" for representative changes.
+Document this using C:\dev\Repo\hmcore_mvshm-289866\hwdesktop\ _generate_doc.py to a file
